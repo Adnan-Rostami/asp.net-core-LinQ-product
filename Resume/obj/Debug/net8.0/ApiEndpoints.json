@@ -1,0 +1,89 @@
+[
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "GetAveragePrice",
+    "RelativePath": "Category/GetAveragePrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "GetByCategory",
+    "RelativePath": "Category/GetByCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "GetByCategorySpecifically",
+    "RelativePath": "Category/GetByCategorySpecifically",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "GetCategoryByGroup",
+    "RelativePath": "Category/GetCategoryByGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "HighestPrice",
+    "RelativePath": "Category/GetHighestPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.CategoryController",
+    "Method": "GetTotalPrice",
+    "RelativePath": "Category/GetTotalPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resume.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Resume.WeatherForecast, Resume, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
